@@ -1,11 +1,11 @@
 import ProductItem from './ProductItem.jsx'
 
-function ProductList({products, agregarEnCarrito, quitarEnCarrito}){
+function ProductList({products}){
 
     return (
         <div className="contenedorProductos">
             {products.map((product) => (
-                <ProductItem key={product.id} product={product} agregarEnCarrito={agregarEnCarrito} quitarEnCarrito={quitarEnCarrito} />
+                <ProductItem key={product.id} product={product} />
             ))}
         </div>
 

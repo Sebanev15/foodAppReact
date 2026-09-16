@@ -1,16 +1,15 @@
+import {useCart} from '../context/useCart.js'
 import CartItem from './CartItem.jsx'
 
-function CartList({cartItems, eliminarElementoCarrito}){
+function CartList(){
 
-    let total = 0;
-    cartItems.map((item) =>{
-        total +=(item.inCart*item.price)
-    })
+    const {foods, total} = useCart();
+
     return (
         <div className="carrito">
             <h2>Cuenta:</h2>
-            {cartItems.map((item) => (
-                <CartItem key={item.id} cartItem={item} eliminarElementoCarrito={eliminarElementoCarrito}/>
+            {foods.map((item) => (
+                <CartItem key={item.id} cartItem={item} />
             ))}
             <h2>Total: {total}</h2>
         </div>

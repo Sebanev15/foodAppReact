@@ -1,4 +1,8 @@
-function CartItem({cartItem, eliminarElementoCarrito}){
+import {useCart} from '../context/useCart.js'
+
+function CartItem({cartItem}){
+
+    const {eliminarElementoCarrito} = useCart();
 
     return (
         <div className={`carritoItem ${cartItem.inCart===0 ? "invisible": ""}`}>
