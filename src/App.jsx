@@ -83,7 +83,7 @@ function ProductItem({product, agregarEnCarrito, quitarEnCarrito}){
 
   return (
       <div className={`producto ${product.quantity===0 ? "sinStock": ""}`}>
-          <img src={product.link} className={product.quantity===0 ? "sinStock": ""} alt={product.icon}/>
+          <span className={`emoji ${product.quantity===0 ? "sinStock": ""}`} role="img" aria-label={product.name}>{product.icon}</span>
           <h2 className={`sinStockTitulo ${product.quantity===0 ? "sinStock": ""}`}>Sin stock</h2>
           <div className="productoInfo">
               <div className="contenedorBotones">
@@ -118,7 +118,7 @@ function CartItem({cartItem, eliminarElementoCarrito}){
 
     return (
         <div key={cartItem.id} className={`carritoItem ${cartItem.inCart===0 ? "invisible": ""}`}>
-            <img src={cartItem.link} alt={cartItem.icon}/>
+            <span className="emojiCarrito" role="img" aria-label={cartItem.name}>{cartItem.icon}</span>
             <h4>x {cartItem.inCart}</h4>
             <h4>${cartItem.inCart*cartItem.price}</h4>
             <button className="eliminar" onClick={() => eliminarElementoCarrito(cartItem.id)}>X</button>

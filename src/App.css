@@ -206,11 +206,13 @@
   border-radius: 10px;
   position: relative;
 }
-.producto img{
+.producto .emoji{
   font-size: 100px;
+  line-height: 1;
   height: 200px;
   display: flex;
   align-items: center;
+  font-style: normal;
 }
 .contenedorBotones{
   display: flex;
@@ -246,8 +248,12 @@
   background-color: rgb(255 255 255 / 0.5);
   color:black;
 }
-img.sinStock{
+.emoji.sinStock{
   color: rgb(255 255 255 / 0.26);
+}
+.emojiCarrito{
+  font-size: 40px;
+  line-height: 1;
 }
 .carritoItem.invisible{
   display: none;
