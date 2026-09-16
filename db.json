@@ -1,0 +1,184 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Pizza Margherita",
+      "icon": "🍕",
+      "price": 12.5,
+      "quantity": 20,
+      "description": "Classic pizza with tomato sauce, mozzarella and fresh basil.",
+      "availableMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 2,
+      "name": "Classic Burger",
+      "icon": "🍔",
+      "price": 10,
+      "quantity": 15,
+      "description": "Beef burger with cheese, lettuce, tomato and special sauce.",
+      "availableMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 3,
+      "name": "Mexican Tacos",
+      "icon": "🌮",
+      "price": 9.5,
+      "quantity": 12,
+      "description": "Seasoned beef tacos with onion, cilantro and spicy sauce.",
+      "availableMonths": [3, 4, 5, 6, 7, 8, 9, 10]
+    },
+    {
+      "id": 4,
+      "name": "Sushi",
+      "icon": "🍣",
+      "price": 18,
+      "quantity": 10,
+      "description": "Selection of sushi with salmon, tuna, rice and fresh vegetables.",
+      "availableMonths": [1, 2, 3, 4, 5, 9, 10, 11, 12]
+    },
+    {
+      "id": 5,
+      "name": "Caesar Salad",
+      "icon": "🥗",
+      "price": 8.5,
+      "quantity": 25,
+      "description": "Fresh lettuce, grilled chicken, croutons, parmesan and Caesar dressing.",
+      "availableMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 6,
+      "name": "Carbonara Pasta",
+      "icon": "🍝",
+      "price": 14,
+      "quantity": 18,
+      "description": "Italian pasta with bacon, egg, parmesan and black pepper.",
+      "availableMonths": [4, 5, 6, 7, 8, 9]
+    },
+    {
+      "id": 7,
+      "name": "Ice Cream",
+      "icon": "🍦",
+      "price": 5,
+      "quantity": 30,
+      "description": "Artisanal ice cream available in different flavors.",
+      "availableMonths": [10, 11, 12, 1, 2, 3]
+    },
+    {
+      "id": 8,
+      "name": "Pumpkin Soup",
+      "icon": "🍲",
+      "price": 7,
+      "quantity": 20,
+      "description": "Creamy pumpkin soup with spices and a touch of cream.",
+      "availableMonths": [5, 6, 7, 8, 9]
+    },
+    {
+      "id": 9,
+      "name": "Pancakes",
+      "icon": "🥞",
+      "price": 6.5,
+      "quantity": 15,
+      "description": "Fluffy pancakes served with fresh fruit and honey.",
+      "availableMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 10,
+      "name": "Strawberry Cheesecake",
+      "icon": "🍰",
+      "price": 8,
+      "quantity": 8,
+      "description": "Creamy cheesecake with a cookie base and strawberry topping.",
+      "availableMonths": [10, 11, 12, 1, 2]
+    },
+    {
+      "id": 11,
+      "name": "Grilled Steak",
+      "icon": "🥩",
+      "price": 22,
+      "quantity": 10,
+      "description": "Grilled steak served with potatoes and fresh salad.",
+      "availableMonths": [4, 5, 6, 7, 8, 9]
+    },
+    {
+      "id": 12,
+      "name": "Chicken Sandwich",
+      "icon": "🥪",
+      "price": 9,
+      "quantity": 20,
+      "description": "Grilled chicken sandwich with cheese, tomato, lettuce and mayonnaise.",
+      "availableMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 13,
+      "name": "Hot Dog",
+      "icon": "🌭",
+      "price": 7.5,
+      "quantity": 18,
+      "description": "Classic hot dog with sausage, mustard, ketchup and onions.",
+      "availableMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 14,
+      "name": "Donut",
+      "icon": "🍩",
+      "price": 4.5,
+      "quantity": 25,
+      "description": "Soft glazed donut with a sweet and delicious topping.",
+      "availableMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 15,
+      "name": "Croissant",
+      "icon": "🥐",
+      "price": 4,
+      "quantity": 20,
+      "description": "Fresh and buttery French-style croissant.",
+      "availableMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 16,
+      "name": "Ramen",
+      "icon": "🍜",
+      "price": 15,
+      "quantity": 14,
+      "description": "Japanese noodle soup with broth, vegetables, egg and pork.",
+      "availableMonths": [4, 5, 6, 7, 8, 9, 10]
+    },
+    {
+      "id": 17,
+      "name": "Dumplings",
+      "icon": "🥟",
+      "price": 11,
+      "quantity": 16,
+      "description": "Steamed dumplings filled with pork, vegetables and spices.",
+      "availableMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 18,
+      "name": "Fried Shrimp",
+      "icon": "🍤",
+      "price": 16,
+      "quantity": 12,
+      "description": "Crispy fried shrimp served with lemon and homemade sauce.",
+      "availableMonths": [1, 2, 3, 10, 11, 12]
+    },
+    {
+      "id": 19,
+      "name": "Burrito",
+      "icon": "🌯",
+      "price": 11,
+      "quantity": 15,
+      "description": "Large tortilla filled with beef, rice, beans, cheese and vegetables.",
+      "availableMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 20,
+      "name": "Apple Pie",
+      "icon": "🥧",
+      "price": 7,
+      "quantity": 10,
+      "description": "Warm homemade apple pie with cinnamon and a crispy crust.",
+      "availableMonths": [3, 4, 5, 6, 7, 8, 9, 10]
+    }
+  ]
+}
