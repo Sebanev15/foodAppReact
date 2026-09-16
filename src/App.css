@@ -209,13 +209,16 @@
   border: solid 3px white;
   border-radius: 10px;
   position: relative;
+  overflow: hidden;
 }
 .producto .emoji{
   font-size: 100px;
   line-height: 1;
   height: 200px;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-style: normal;
 }
 .contenedorBotones{
@@ -224,13 +227,28 @@
 }
 
 .productoInfo{
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  width: 100%;
   box-sizing: border-box;
-  padding: 0 8px 8px;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+.productoInfo .productoNombre{
+  color: #fff;
+}
+
+.productoInfo h4{
+  color: #fff;
+  margin: 0;
 }
 
 .productoNombre{
